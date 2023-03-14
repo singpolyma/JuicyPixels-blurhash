@@ -48,7 +48,7 @@ library
   build-depends:
       JuicyPixels >=3.2.8 && <3.4
     , base >=4.7 && <5
-    , bytestring >=0.9 && <=0.11
+    , bytestring >=0.9 && <0.12
     , containers >=0.4.2 && <0.7
     , filepath >=1.4.1.1 && <1.5
     , vector >=0.10 && <0.13
@@ -65,7 +65,7 @@ executable JuicyPixels-blurhash-exe
       JuicyPixels >=3.2.8 && <3.4
     , JuicyPixels-blurhash
     , base >=4.7 && <5
-    , bytestring >=0.9 && <=0.11
+    , bytestring >=0.9 && <0.12
     , containers >=0.4.2 && <0.7
     , filepath >=1.4.1.1 && <1.5
     , optparse-applicative >=0.14.3 && <0.18
@@ -85,7 +85,7 @@ test-suite JuicyPixels-blurhash-doctests
     , JuicyPixels >=3.2.8 && <3.4
     , JuicyPixels-blurhash
     , base >=4.7 && <5
-    , bytestring >=0.9 && <=0.11
+    , bytestring >=0.9 && <0.12
     , containers >=0.4.2 && <0.7
     , doctest >=0.16.2 && <0.20
     , filepath >=1.4.1.1 && <1.5
@@ -102,7 +102,7 @@ test-suite JuicyPixels-blurhash-test
       JuicyPixels >=3.2.8 && <3.4
     , JuicyPixels-blurhash
     , base >=4.7 && <5
-    , bytestring >=0.9 && <=0.11
+    , bytestring >=0.9 && <0.12
     , containers >=0.4.2 && <0.7
     , filepath >=1.4.1.1 && <1.5
     , hedgehog >=1.0.2 && <1.2
